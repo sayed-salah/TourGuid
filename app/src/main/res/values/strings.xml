@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TourGuid2</string>
+    <string name="fragment_stadium">Stadium</string>
+    <string name="fragment_resturant">Resturant</string>
+    <string name="fragment_club">Club</string>
+    <string name="fragment_landmark">Landmark</string>
+</resources>
