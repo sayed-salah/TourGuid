@@ -26,7 +26,7 @@ public class Fragment_stadium extends Fragment {
                              Bundle savedInstanceState) {
         final ArrayList<Item> itemArrayList = new ArrayList<>();
         View viewroot = inflater.inflate(R.layout.item_list, container, false);
-        itemArrayList.add(new Item(R.drawable.stadiumm, "Santiago Bernabéu", "Europe Largest Stadium", R.drawable.marker));
+        itemArrayList.add(new Item(R.drawable.stadiumm, getResources().getString(R.string.stadiumname), getResources().getString(R.string.stadiumdescription), R.drawable.marker));
         ListView listView = (ListView) viewroot.findViewById(R.id.list);
         ListAdapter itemsAdapter = new ListAdapter(getActivity(), itemArrayList);
         listView.setAdapter(itemsAdapter);

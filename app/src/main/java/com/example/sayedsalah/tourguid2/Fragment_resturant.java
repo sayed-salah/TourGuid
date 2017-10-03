@@ -26,7 +26,7 @@ public class Fragment_resturant extends Fragment {
                              Bundle savedInstanceState) {
         final ArrayList<Item> itemArrayList = new ArrayList<>();
         View viewroot = inflater.inflate(R.layout.item_list, container, false);
-        itemArrayList.add(new Item(R.drawable.resturant, "Asador de la Esquina", "Asador Resturant is amodern and casual yet take 200p", R.drawable.marker));
+        itemArrayList.add(new Item(R.drawable.resturant,getResources().getString(R.string.resturantname) , getResources().getString(R.string.resturantdescription), R.drawable.marker));
         ListView listView = (ListView) viewroot.findViewById(R.id.list);
         ListAdapter itemsAdapter = new ListAdapter(getActivity(), itemArrayList);
         listView.setAdapter(itemsAdapter);

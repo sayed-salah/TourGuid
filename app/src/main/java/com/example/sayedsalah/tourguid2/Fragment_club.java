@@ -24,7 +24,7 @@ public class Fragment_club extends Fragment {
                              Bundle savedInstanceState) {
         final ArrayList<Item> itemArrayList = new ArrayList<>();
         View viewroot = inflater.inflate(R.layout.item_list, container, false);
-        itemArrayList.add(new Item(R.drawable.club, "Real Madrid", "Professional football club in madrid", R.drawable.marker));
+        itemArrayList.add(new Item(R.drawable.club, getResources().getString(R.string.clubname), getResources().getString(R.string.clubdescription), R.drawable.marker));
         ListView listView = (ListView) viewroot.findViewById(R.id.list);
         ListAdapter itemsAdapter = new ListAdapter(getActivity(), itemArrayList);
         listView.setAdapter(itemsAdapter);

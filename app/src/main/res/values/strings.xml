@@ -4,4 +4,12 @@
     <string name="fragment_resturant">Resturant</string>
     <string name="fragment_club">Club</string>
     <string name="fragment_landmark">Landmark</string>
+    <string name="clubname">Real Madrid</string>
+    <string name="clubdescription">Professional football club in madrid</string>
+    <string name="landmarkname">Royal Palace of Madrid</string>
+    <string name="landmarkdescription">Beautiful grounds and lots of wonderful places</string>
+    <string name="resturantname">Asador de la Esquina</string>
+    <string name="resturantdescription">Asador Resturant is amodern and casual yet take 200p</string>
+    <string name="stadiumname">Santiago Bernabéu</string>
+    <string name="stadiumdescription">Europe Largest Stadium</string>
 </resources>

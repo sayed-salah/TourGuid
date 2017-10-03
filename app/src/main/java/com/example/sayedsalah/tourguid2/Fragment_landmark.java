@@ -26,7 +26,7 @@ public class Fragment_landmark extends Fragment {
                              Bundle savedInstanceState) {
         final ArrayList<Item> itemArrayList = new ArrayList<>();
         View viewroot = inflater.inflate(R.layout.item_list, container, false);
-        itemArrayList.add(new Item(R.drawable.landmark, "Royal Palace of Madrid", "Beautiful grounds and lots of wonderful places", R.drawable.marker));
+        itemArrayList.add(new Item(R.drawable.landmark,getResources().getString(R.string.landmarkname),getResources().getString(R.string.landmarkdescription), R.drawable.marker));
         ListView listView = (ListView) viewroot.findViewById(R.id.list);
         ListAdapter adapter = new ListAdapter(getActivity(), itemArrayList);
         listView.setAdapter(adapter);
